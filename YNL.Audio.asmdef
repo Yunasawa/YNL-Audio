@@ -1,0 +1,17 @@
+{
+    "name": "YNL.Audio",
+    "rootNamespace": "",
+    "references": [
+        "GUID:23c9a8ee6925f5c4da2810b5feac4cd6",
+        "GUID:abab9aefb71cafa4f868b11fbdbff08b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
