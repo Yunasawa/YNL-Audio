@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
+#if YNL_UTILITIES
 using YNL.Extensions.Methods;
+#endif
 
-namespace YNL.Audio.Barrier
+namespace YNL.Audios.Barrier
 {
     public class AudioBarrier : MonoBehaviour
     {
@@ -43,12 +45,6 @@ namespace YNL.Audio.Barrier
 
             _rigid = this.gameObject.AddComponent<Rigidbody>();
             _rigid.isKinematic = true;
-        }
-
-        private void OnValidate()
-        {
-            if (_boxCollider == null) return;
-            _boxCollider.size = Vector3.one * Size * 2f;
         }
 
         private void OnTriggerEnter(Collider other)
@@ -125,8 +121,10 @@ namespace YNL.Audio.Barrier
 
             if (Type == BarrierType.Box)
             {
+#if YNL_UTILITIES
                 MDrawer.DrawWireBoxGizmos(position, Size, Size, Size);
                 MDrawer.DrawWireBoxGizmos(position.AddY(-halfSize), Size, halfSize, Size);
+#endif
             }
             else if (Type == BarrierType.Sphere)
             {
