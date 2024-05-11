@@ -10,5 +10,4 @@
 
 <h2> ★ About </h2>
 
-A product made by Yunasawa Studio, those contains helpful extensions, utilities, addons that solve your several problems can appear in your developing progress. <br>
-Contact us: <kbd> yunasawa200@gmail.com </kbd>
+Audio Barrier works in both 2D and 3D 
