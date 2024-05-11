@@ -57,7 +57,6 @@ namespace YNL.Audios.Barrier
             }
 
 #if YNL_EDITOR
-            EditorLayer.AddLayer("Audio Barrier");
             EditorTag.AddTag("Audio Source");
             EditorTag.AddTag("Audio Listener");
 #endif

@@ -40,7 +40,6 @@ namespace YNL.Audios.Barrier
 #endif
 #if YNL_UTILITIES
             _source = _main.GetOrAddComponent<AudioSource>();
-            _source.spatialBlend = 1;
 #endif
         }
 
