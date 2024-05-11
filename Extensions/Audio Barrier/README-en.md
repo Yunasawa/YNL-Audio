@@ -47,5 +47,5 @@
     <li> Create an empty object to be child of Camera or Player (wherever you want the Listener to be) and add a component <code> Audio Listener Setup </code>. It will automatically add an <code> Audio Listener </code> and a tag into the object.</li>
     <li> Create another empty object (same place with Audio Listener) and add a component <code> Audio Source Setup </code>. It will automatically add an <code> Audio Source </code> and a tag into the object. You can also add more <code> Audio Source </code> if you want to this object. </li>
   </ul>
-  <li> And now you done, you can play the game to check if everything if perfect. </li>
+  <li> And now you done, you can play the game to check if everything are perfect. </li>
 </ul>
