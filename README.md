@@ -13,6 +13,11 @@
 A product made by Yunasawa Studio, contains useful extensions, tools, utilities for Audio management. <br>
 Contact us: <kbd> yunasawa200@gmail.com </kbd>
 
+<details>
+  <summary><i> Repositiy Stats </i></summary>
+  <img width="100%" src="https://repobeats.axiom.co/api/embed/a8a76a4258bebb5a5e472c143b716648cd2f9d9c.svg">
+</details>
+
 <h2> ★ Contents </h2>
 <ul>
 <li><a href="#installation"> ★ Installation </a></li>
