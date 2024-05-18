@@ -1,7 +1,6 @@
 #if UNITY_EDITOR
 using System.Linq;
 using UnityEditor;
-using UnityEngine;
 
 namespace YNL.Audios.Setups
 {
@@ -23,8 +22,8 @@ namespace YNL.Audios.Setups
         public static void InitializeOnLoad()
         {
             EditorManifest.AddRegistry("YunasawaStudio", "https://package.openupm.com", "com.yunasawa.ynl.editor", "com.yunasawa.ynl.utilities");
-            EditorManifest.AddDependency("com.yunasawa.ynl.editor", "1.4.0");
-            EditorManifest.AddDependency("com.yunasawa.ynl.utilities", "1.3.0");
+            EditorManifest.AddDependency("com.yunasawa.ynl.editor", "1.4.3");
+            EditorManifest.AddDependency("com.yunasawa.ynl.utilities", "1.3.2");
             EditorDefineSymbols.AddSymbols("YNL_UTILITIES", "YNL_EDITOR");
         }
     }

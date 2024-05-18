@@ -1,7 +1,7 @@
 {
     "name": "com.yunasawa.ynl.audio",
     "displayName": "YNL - Audio",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "unity": "2022.3",
     "description": "YNL - Audio provides you Audio extensions.",
     "keywords": [
