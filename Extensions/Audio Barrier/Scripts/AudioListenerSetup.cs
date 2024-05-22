@@ -7,7 +7,7 @@ using YNL.Editors.Extensions;
 using YNL.Extensions.Methods;
 #endif
 
-namespace YNL.Audios.Barrier
+namespace YNL.Audios.AudioBarrier
 {
     public class AudioListenerSetup : MonoBehaviour
     {

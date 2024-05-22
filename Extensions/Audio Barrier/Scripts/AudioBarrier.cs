@@ -4,12 +4,12 @@ using UnityEngine;
 using YNL.Extensions.Methods;
 #endif
 
-namespace YNL.Audios.Barrier
+namespace YNL.Audios.AudioBarrier
 {
+    public enum BarrierType { Sphere, Box }
+
     public class AudioBarrier : MonoBehaviour
     {
-        public enum BarrierType { Sphere, Box }
-
         public float Size = 5;
         public BarrierType Type = BarrierType.Box;
 
@@ -19,8 +19,6 @@ namespace YNL.Audios.Barrier
 
         private List<Transform> _sources = new();
         private Transform _listener;
-
-        public LayerMask Layer;
 
         private const float _multiply = 3;
 
