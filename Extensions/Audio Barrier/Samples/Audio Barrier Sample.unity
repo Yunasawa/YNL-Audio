@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3592b2e979e991549a526765f29a3406, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Size: 7.5
+  Size: 10
   Type: 0
   EnableGizmos: 1
 --- !u!1 &324686242
@@ -313,7 +313,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: dc97c3a41f357ff489c0d7292d7f85d4, type: 3}
+    m_Font: {fileID: 12800000, guid: 720a34ff52191054b85a8461a3209087, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0

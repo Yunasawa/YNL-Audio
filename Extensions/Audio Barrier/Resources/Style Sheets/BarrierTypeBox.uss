@@ -1,0 +1,41 @@
+.Main
+{
+	background-color: #303030;
+
+	border-radius: 5px;
+	border-width: 0px;
+
+	width: 100%;
+	height: 75px;
+
+	flex-direction: row;
+}
+
+.Label
+{
+	margin-left: 5px;
+
+	align-self: center;
+
+	-unity-font-definition: var(--font-somatic);
+}
+
+.TypeContainer
+{
+	background-color: #202020;
+
+	border-radius: 5px;
+	border-width: 0px;
+
+	width: 100%;
+	height: 65px;
+
+	margin-left: 7.5px;
+	margin-right: 5px;
+
+	align-self: center;
+
+	overflow: hidden;
+
+	flex-direction: row;
+}

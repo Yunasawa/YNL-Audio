@@ -1,0 +1,65 @@
+﻿.Main
+{
+	background-color: #303030;
+	
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: transparent;
+
+	max-width: 80px;
+	width: 0px;
+	height: 30px;
+
+	margin: 0px;
+	margin-bottom: 5px;
+
+	justify-content: center;
+
+	flex-grow: 1;
+
+	flex-direction: row;
+
+	overflow: hidden;
+}
+
+.Main_Enter
+{
+	border-color: #7f7f7f;
+}
+
+.Label
+{
+	margin: 0px;
+	margin-right: 2.5px;
+
+	-unity-text-align: middle-left; 
+
+	-unity-font-definition: var(--font-somatic);
+}
+
+
+.Toggle
+{
+	background-color: transparent;
+	background-image: resource("Textures/Icons/Invisible 3");
+	-unity-background-image-tint-color: #7f7f7f;
+	background-size: 75%;
+
+	border-width: 0px;
+
+	width: 25px;
+	height: 25px;
+
+	margin: 0px;
+
+	align-self: center;
+
+	transition-property: -unity-background-image-tint-color;
+	transition-duration: 0.25s;
+}
+
+.Toggle_True
+{
+	background-image: resource("Textures/Icons/Visible 3");
+	-unity-background-image-tint-color: #FDC008;
+}

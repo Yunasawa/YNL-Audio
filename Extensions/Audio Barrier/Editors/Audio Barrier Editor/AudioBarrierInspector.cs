@@ -1,13 +1,17 @@
-#if UNITY_EDITOR
-#if YNL_EDITOR
-#if YNL_UTILITIES
+#if UNITY_EDITOR && YNL_EDITOR && YNL_UTILITIES
 using UnityEditor;
 using UnityEngine.UIElements;
-using YNL.Editors.UIElements.Plained;
 using YNL.Editors.UIElements.Flexs;
 using YNL.Editors.Windows.Utilities;
 using YNL.Extensions.Addons;
 using UnityEditor.UIElements;
+using YNL.Editors.UIElements.Plained;
+using YNL.Audios.Statics;
+using System;
+using YNL.Extensions.Methods;
+using UnityEngine;
+using UnityEngine.TextCore.Text;
+using YNL.Editors.Utilities;
 
 namespace YNL.Audios.AudioBarrier
 {
@@ -50,16 +54,16 @@ namespace YNL.Audios.AudioBarrier
                 .SetGlobalColor("#FDC008")
                 .AddIcon("Textures/Audio Barrier Icon (White)", MAddressType.Resources)
                 .AddTitle("Audio Barrier")
-                .AddDocumentation("https://github.com/Yunasawa/YNL-Audio/tree/main/Extensions/Audio%20Barrier"));
+                .AddDocumentation(StaticLink.AudioBarrierDocumentation)
+                .AddBottomSpace(10));
 
-            InspectorElement.FillDefaultInspector(_root, serializedObject, this);
+            FlexElementGroup _container = new FlexElementGroup()
+            .AddElements(new PlainedFloatField(_propertySize).SetAsHorizontalBox().SetLabelWidth(40).SetFontDefinition(EditorFontAsset.Somatic))
+            .AddVSpace(5)
+            .AddElements(new EnableGizmosBox(_propertyEnableGizmos, "Gizmos"));
 
-            //_root.AddElements(new EFloatField(_propertySize), new EEnumField(_propertyType, "YNL.Audios.AudioBarrier.BarrierType"), new EToggleField(_propertyEnableGizmos));
-            //_root.AddHSpace(20);
-            //_root.AddElements(new Image().AddClass("Circle"));
+            _root.AddElements(_container, new BarrierTypeBox(_propertyType));
         }
     }
 }
-#endif
-#endif
 #endif

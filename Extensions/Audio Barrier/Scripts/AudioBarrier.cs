@@ -6,7 +6,7 @@ using YNL.Extensions.Methods;
 
 namespace YNL.Audios.AudioBarrier
 {
-    public enum BarrierType { Sphere, Box }
+    public enum BarrierType { Sphere, Box, Cylinder }
 
     public class AudioBarrier : MonoBehaviour
     {

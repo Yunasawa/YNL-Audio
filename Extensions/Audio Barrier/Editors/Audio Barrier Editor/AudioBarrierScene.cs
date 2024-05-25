@@ -1,6 +1,4 @@
-#if UNITY_EDITOR
-#if YNL_EDITOR
-#if YNL_UTILITIES
+#if UNITY_EDITOR && YNL_EDITOR && YNL_UTILITIES
 using UnityEditor;
 using UnityEngine;
 using YNL.Editors.Extensions;
@@ -54,6 +52,4 @@ namespace YNL.Audios.AudioBarrier
         }
     }
 }
-#endif
-#endif
 #endif
