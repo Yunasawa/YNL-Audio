@@ -1,5 +1,5 @@
 <h1><div align="center"> Yunasawa の Library - Audio </div></h1>
-<h4><div align="center"><i> An library provides you extensions to help you manage Audio activities. </i></div></h4>
+<h4><div align="center"><i> Simplify audio management in your Unity projects with this toolkit. It includes helpful extensions tailored for audio systems. </i></div></h4>
 
 <p align="center">
  <img src="https://img.shields.io/badge/Script-DOCUMENTATION-blue.svg" alt="script">
