@@ -4,13 +4,8 @@ using UnityEngine.UIElements;
 using YNL.Editors.UIElements.Flexs;
 using YNL.Editors.Windows.Utilities;
 using YNL.Extensions.Addons;
-using UnityEditor.UIElements;
 using YNL.Editors.UIElements.Plained;
 using YNL.Audios.Statics;
-using System;
-using YNL.Extensions.Methods;
-using UnityEngine;
-using UnityEngine.TextCore.Text;
 using YNL.Editors.Utilities;
 
 namespace YNL.Audios.AudioBarrier
