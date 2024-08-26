@@ -22,7 +22,7 @@ namespace YNL.Audios.Setups
         public static void InitializeOnLoad()
         {
 #if !YNL_EDITOR
-        Debug.Log($"<color=#FF983D><b>⚠ Caution:</b></color> <color=#fffc54><b>YNL - Audio</b></color> requires <a href=\"https://github.com/Yunasawa/YNL-Utilities\"><b>YNL - Utilities</b></a>");
+        Debug.Log($"<color=#FF983D><b>⚠ Caution:</b></color> <color=#fffc54><b>YNL - Audio</b></color> requires <a href=\"https://github.com/Yunasawa/YNL-Utilities\"><b>YNL - Editor</b></a>");
 #elif !YNL_UTILITIES
         Debug.Log($"<color=#FF983D><b>⚠ Caution:</b></color> <color=#fffc54><b>YNL - Audio</b></color> requires <a href=\"https://github.com/Yunasawa/YNL-Editor\"><b>YNL - Utilities</b></a>");
 #endif
